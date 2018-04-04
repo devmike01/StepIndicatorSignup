@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:minHeight="58dp"
+        android:layout_marginBottom="12dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_bg"
+        android:drawablePadding="10dp"
+        android:hint="@string/house_number"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:minHeight="58dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:hint="@string/date_of_birth"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:minHeight="58dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:hint="@string/user_title"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+
+        android:minHeight="58dp"
+        android:padding="10dp"
+        android:hint="@string/first_name"
+        android:background="@drawable/edittext_bg"
+        android:drawablePadding="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:minHeight="58dp"
+        android:padding="10dp"
+        android:hint="@string/middle_name"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="wrap_content" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>

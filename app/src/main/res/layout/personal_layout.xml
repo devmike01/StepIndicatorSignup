@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:drawableEnd="@drawable/ic_expand_more"
+        android:focusable="false"
+        android:minHeight="58dp"
+        android:id="@+id/nationality_"
+        android:layout_marginBottom="12dp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:background="@drawable/edittext_bg"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="50dp"
+        android:hint="@string/select_nationality"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:padding="10dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:minHeight="58dp"
+        android:inputType="date"
+        android:drawableStart="@drawable/ic_date_range"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:hint="@string/date_of_birth"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:drawableEnd="@drawable/ic_expand_more"
+        android:padding="10dp"
+        android:id="@+id/title_"
+        android:minHeight="58dp"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/user_title"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginBottom="12dp"
+        android:minHeight="58dp"
+        android:inputType="textPersonName"
+        android:hint="@string/first_name"
+        android:focusable="true"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_person"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:drawablePadding="5dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/middle_name"
+        android:layout_width="match_parent"
+        android:minHeight="58dp"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="12dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@drawable/edittext_bg"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

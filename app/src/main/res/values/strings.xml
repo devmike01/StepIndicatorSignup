@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sign Up</string>
+    <string name="open_new_account">Open New Account</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="select_nationality">Select Nationality</string>
+    <string name="user_title">Title</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="house_number">House Number</string>
+    <string name="scan_upload"><![CDATA[Scan & Upload your signature]]></string>
+    <string name="take_selfie">Take a Selfie of yourself and Upload</string>
+    <string name="next">Next</string>
+</resources>

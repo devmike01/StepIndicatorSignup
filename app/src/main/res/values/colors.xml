@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#efefef</color>
+    <color name="colorAccent">#7702ca</color>
+    <color name="colorLightAccent">#9214ec</color>
+    <color name="yellow">#deb604</color>
+    <color name="golden">#f0ffc74d</color>
+    <color name="defaultColor">#818181</color>
+
+    <color name="background_default">#A5D6A7</color>
+    <color name="step_default">#4CAF50</color>
+    <color name="current_step_default">#ffffff</color>
+    <color name="text_default">#000000</color>
+    <color name="secondary_text_default">#ffffff</color>
+    <color name="status_bar">#6c838282</color>
+    
+</resources>

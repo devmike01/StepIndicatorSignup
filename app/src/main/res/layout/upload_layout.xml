@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        style="?android:borderlessButtonStyle"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:drawablePadding="10dp"
+        android:background="@drawable/upload_bg"
+        android:textAlignment="textStart"
+        android:paddingEnd="30dp"
+        android:text="@string/scan_upload"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/ic_flip"
+        android:layout_height="90dp" />
+
+    <Button
+        style="?android:borderlessButtonStyle"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:textAlignment="textStart"
+        android:background="@drawable/upload_bg"
+        android:paddingEnd="30dp"
+        android:text="@string/take_selfie"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/ic_camera_alt"
+        android:layout_height="90dp" />
+
+</LinearLayout>

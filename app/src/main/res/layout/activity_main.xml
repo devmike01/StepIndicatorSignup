@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="20dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.jadebyte.devmike.signup.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/open_new_account"
+        android:id="@+id/title"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <com.jadebyte.devmike.signup.customviews.StepIndicator
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/step_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:siCurrentStepColor="@color/yellow"
+        app:siLineHeight="3.0dp"
+        app:siTextColor="@android:color/white"
+        app:siStrokeWidth="6dp"
+        app:siRadius="20dp"
+        app:siStepCount="3"
+        app:siBackgroundColor="@android:color/darker_gray"
+        app:siStepColor="@color/golden"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+      <!--  <android.support.v4.view.PagerTitleStrip
+            android:id="@+id/pager_title_strip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:nestedScrollingEnabled="false"
+            android:layout_gravity="top"
+            android:background="@android:color/transparent"
+            android:textColor="#2e2e2e"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+
+    </android.support.v4.view.ViewPager>!-->
+
+    <Button
+        android:id="@+id/nextBtn"
+        style="?android:buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:background="@drawable/next_btn"
+        android:padding="15dp" />
+
+</LinearLayout>
