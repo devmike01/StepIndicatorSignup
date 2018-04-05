@@ -1,4 +1,11 @@
 # StepIndicatorSignup
 This project demonstrate how to use StepIndicator with viewpager to create a beautiful signup page. The app is currently not on playstore but I've includes its screenshot below...
 
-<img height="450" width="300" src="https://storage.googleapis.com/firesample-12a1e.appspot.com/userImages%2FProfileImages%2FHk5EH7ZoqogFCcyDbEyHavRCeEd2%2FMpxma.jpg?GoogleAccessId=firebase-adminsdk-iknue@firesample-12a1e.iam.gserviceaccount.com&Expires=16447017600&Signature=MdTpuTes5%2BSULvytZw%2FmZ5NlpwFYY9dY0lm3WzEcspNUpMrVhyUevBGF%2BSDWfUypCJH6vgYvZVODhmWTtScfpOAaMM1eVM4QoNgb4A0IbZTcilGzZZXSy%2FkcLgIJMsWkqUvwMDHzwfX1nVjdkzdUAmEW40HUkezuGqI8j5pGhKImj9CbcnPH5cVhe%2FJFbzBxTwkxyLBL73ImwciokHFSuuL66vpjxJotd%2FQ9xHKPo4R67t7cxq9nmrA6Qd7FGr9QZHRky7voCuS6afjfxT0RoSKaRP%2F7wPk8L%2Bsoe4MIJ11fYoHz7Di7h6ThY%2BZ%2FGNH2nYN71jbU78hxsG1fVZLF8w%3D%3D"/>
+
+<img src="https://firebasestorage.googleapis.com/v0/b/firesample-12a1e.appspot.com/o/githubimages%2Fdevice-2018-04-05-171351.png?alt=media&token=9adf2400-7df1-490c-85d0-563223768671" float="left"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/firesample-12a1e.appspot.com/o/githubimages%2Fdevice-2018-04-05-171436.png?alt=media&token=dd29ce2d-cb99-4ee7-b180-91732c466656" float="left"/><div float="break"></div>
+
+The <B>Next</b> button takes user to the next step. Moreover, the <b>Next</b> button will be automatically disabled once it reached the last page. <br/>
+
+
+
