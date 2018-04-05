@@ -8,3 +8,6 @@ This project demonstrate how to use StepIndicator with viewpager to create a bea
 
 The <B>Next</b> button takes user to the next step. Moreover, the <b>Next</b> button will be automatically disabled once it reached the last page. <br/>
 
+<b>Credit</b>: <br/>
+<a href="https://github.com/layerlre/StepIndicator/commits?author=layerlre">@layerlre</a><br/>
+
