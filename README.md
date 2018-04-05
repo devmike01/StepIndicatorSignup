@@ -11,7 +11,8 @@ The <B>Next</b> button takes user to the next step. Moreover, the <b>Next</b> bu
 <b>Credit</b>: <br/>
 <a href="https://github.com/layerlre/StepIndicator/commits?author=layerlre">@layerlre</a><br/>
 
- Copyright 2018 Oladipupo Gbenga
+<h3>Licence</h3>
+ <div style="background-color:#efefef">Copyright 2018 Oladipupo Gbenga
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -23,6 +24,6 @@ The <B>Next</b> button takes user to the next step. Moreover, the <b>Next</b> bu
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.
+   limitations under the License.</div>
 
 
