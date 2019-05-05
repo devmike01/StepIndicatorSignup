@@ -1,5 +1,5 @@
 ## StepIndicatorSignup
-This project demonstrate how to use StepIndicator with viewpager to create a beautiful signup page. The app is currently not on playstore but I've includes its screenshot below...
+This project demonstrate how to use StepIndicator with viewpager to create a beautiful signup page. The app is currently not on playstore but I've includes its screenshot below... See <a href="https://github.com/devmike01/PageStepIndicator">PageStepIndicator</a> for updated step view indicator
 
 <table border="0"><tr><td>
 <img height="450" width="250" src="https://firebasestorage.googleapis.com/v0/b/firesample-12a1e.appspot.com/o/githubimages%2Fdevice-2018-04-05-171351.png?alt=media&token=9adf2400-7df1-490c-85d0-563223768671"></img></td><td>
